@@ -1,0 +1,9 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f9fafb;
+  background-image: linear-gradient(to bottom right, #ffdb01ad, #0e197d9e);
+}
