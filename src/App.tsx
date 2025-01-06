@@ -5,6 +5,7 @@ import ReverseWords from './components/ReverseWords/ReverseWords';
 import SumPairs from './components/Sumpairs/SumPairs';
 import './index.css'; // Ensure you import your CSS file
 import reactLogo from '../src/assets/logo192.png';
+import Counter from './components/Counter/Counter';
 
 const App: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const App: React.FC = () => {
           <Route path="/" element={<Home />} />
           <Route path="/reverse-words" element={<ReverseWords />} />
           <Route path="/sumpairs" element={<SumPairs />} />
+          <Route path="/counter" element={<Counter />} />
        
         </Routes>
       </div>
